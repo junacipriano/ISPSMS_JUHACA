@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj": {}
+    "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj": {}
   },
   "projects": {
-    "D:\\ISPSMS_JUHACA\\Domain\\Domain.csproj": {
+    "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ISPSMS_JUHACA\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\ISPSMS_JUHACA\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Zeb Perez\\.nuget\\packages\\",
-        "outputPath": "D:\\ISPSMS_JUHACA\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj": {
+    "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj",
+        "projectUniqueName": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj",
         "projectName": "ISPSMS_JUHACA",
-        "projectPath": "D:\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj",
+        "projectPath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj",
         "packagesPath": "C:\\Users\\Zeb Perez\\.nuget\\packages\\",
-        "outputPath": "D:\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\obj\\",
+        "outputPath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\ISPSMS_JUHACA\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\ISPSMS_JUHACA\\Domain\\Domain.csproj"
+              "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Domain.csproj"
               }
             }
           }
