@@ -1,0 +1,60 @@
+using ISPSMS_JUHACA.Data.Repositories;
+using MaterialSkin;
+using MaterialSkin.Controls;
+using System.Windows.Forms;
+using ISPSMS_JUHACA.Data;
+
+namespace ISPSMS_JUHACA
+{
+    public partial class SubscribersForm : MaterialForm
+    {
+        public readonly IConnectedSubscribersRepository dbContext;
+        private BindingSource bindingSource;
+        public Domain.Models.ConnectedSubscribers ConSubsEntity;
+        public SubscribersForm(IConnectedSubscribersRepository dbContext)
+        {
+            InitializeComponent();
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+            this.dbContext = dbContext;
+            bindingSource = new BindingSource();
+        }
+
+        private void SubscribersForm_Load(object sender, EventArgs e)
+        {
+            getPrograms();
+        }
+
+        public void getPrograms()
+        {
+            var connectedSubscribers = dbContext.GetAll();
+            bindingSource.DataSource = connectedSubscribers;
+            connectedsubscribersGridView.DataSource = bindingSource;
+        }
+        private void addBtn_Click(object sender, EventArgs e)
+        {
+            ConSubsEntity = (Domain.Models.ConnectedSubscribers)bindingSource.Current;
+            var AddForm = new addSubscribersForm(dbContext);
+            AddForm.SubscribersForm = this;
+            AddForm.lastNameTextBox.Text = "";
+            AddForm.firstNameTextBox.Text = "";
+            AddForm.MITextBox.Text = "";
+            AddForm.barangayComboBox.Text = "";
+            AddForm.districtComboBox.Text = "";
+            AddForm.planComboBox.Text = "";
+            AddForm.dueDatePicker.Text = "";
+            AddForm.monthlyChargeTextBox.Text = "";
+            AddForm.contactNumberTextBox.Text = "";
+            AddForm.message = "Program added successfully.";
+            AddForm.ShowDialog();
+
+        }
+
+        private void connectedsubscribersGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ConSubsEntity = (Domain.Models.ConnectedSubscribers)bindingSource.Current;
+        }
+    }
+}
