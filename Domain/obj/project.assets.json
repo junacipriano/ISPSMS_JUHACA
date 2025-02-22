@@ -2921,11 +2921,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Domain\\Domain.csproj",
       "projectName": "Domain",
       "projectPath": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Domain\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Zeb Perez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\obj\\",
+>>>>>>> 3f44a464788a6ad2faa061557e030370272adf12
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

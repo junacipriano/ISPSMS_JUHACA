@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "KailkmAxwQo=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj",
+=======
+  "dgSpecHash": "TG0l/tPDVkY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj",
+>>>>>>> 3f44a464788a6ad2faa061557e030370272adf12
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

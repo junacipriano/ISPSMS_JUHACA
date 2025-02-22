@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "RslvtIoM6ZQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Domain\\Domain.csproj",
@@ -78,4 +79,11 @@
       ]
     }
   ]
+=======
+  "dgSpecHash": "I3G7c4eqkiU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> 3f44a464788a6ad2faa061557e030370272adf12
 }
