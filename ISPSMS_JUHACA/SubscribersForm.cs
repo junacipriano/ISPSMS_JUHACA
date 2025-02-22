@@ -25,6 +25,16 @@ namespace ISPSMS_JUHACA
         private void SubscribersForm_Load(object sender, EventArgs e)
         {
             getPrograms();
+
+           
+            if (connectedsubscribersGridView.Columns.Count > 9)
+            {
+                connectedsubscribersGridView.Columns[7].Visible = false;
+                connectedsubscribersGridView.Columns[8].Visible = false;
+                connectedsubscribersGridView.Columns[9].Visible = false;
+            }
+           
+
         }
 
         public void getPrograms()
@@ -33,21 +43,11 @@ namespace ISPSMS_JUHACA
             bindingSource.DataSource = connectedSubscribers;
             connectedsubscribersGridView.DataSource = bindingSource;
         }
+
         private void addBtn_Click(object sender, EventArgs e)
         {
             ConSubsEntity = (Domain.Models.ConnectedSubscribers)bindingSource.Current;
-            var AddForm = new addSubscribersForm(dbContext);
-            AddForm.SubscribersForm = this;
-            AddForm.lastNameTextBox.Text = "";
-            AddForm.firstNameTextBox.Text = "";
-            AddForm.MITextBox.Text = "";
-            AddForm.barangayComboBox.Text = "";
-            AddForm.districtComboBox.Text = "";
-            AddForm.planComboBox.Text = "";
-            AddForm.dueDatePicker.Text = "";
-            AddForm.monthlyChargeTextBox.Text = "";
-            AddForm.contactNumberTextBox.Text = "";
-         
+            var AddForm = new addSubscribersForm(dbContext);            
             AddForm.ShowDialog();
 
         }

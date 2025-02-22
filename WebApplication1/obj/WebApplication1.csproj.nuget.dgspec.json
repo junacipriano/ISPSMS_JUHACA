@@ -51,6 +51,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MaterialSkin.2": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
             "Microsoft.AspNet.Identity.Core": {
               "target": "Package",
               "version": "[2.2.4, )"

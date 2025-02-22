@@ -69,6 +69,8 @@ namespace ISPSMS_JUHACA
             dbContext.Add(entity);
             dbContext.Save();
 
+            message = "Subscriber successfully added!";
+                
             MessageBox.Show(message,
                 "Adding Program",
                 MessageBoxButtons.OK,

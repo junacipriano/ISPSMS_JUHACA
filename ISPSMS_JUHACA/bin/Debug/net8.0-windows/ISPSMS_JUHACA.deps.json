@@ -624,6 +624,8 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
+          "MaterialSkin.2": "2.3.1",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
         },
         "runtime": {
@@ -636,6 +638,7 @@
       "Infastructure/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "MaterialSkin.2": "2.3.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
         },
