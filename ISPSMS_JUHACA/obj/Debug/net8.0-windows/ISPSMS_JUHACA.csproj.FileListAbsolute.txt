@@ -256,3 +256,4 @@ C:\Users\Zeb Perez\OneDrive\Desktop\ISPSMS_JUHACA\ISPSMS_JUHACA\obj\Debug\net8.0
 C:\Users\Zeb Perez\OneDrive\Desktop\ISPSMS_JUHACA\ISPSMS_JUHACA\obj\Debug\net8.0-windows\ISPSMS_JUHACA.pdb
 C:\Users\Zeb Perez\OneDrive\Desktop\ISPSMS_JUHACA\ISPSMS_JUHACA\obj\Debug\net8.0-windows\ISPSMS_JUHACA.genruntimeconfig.cache
 C:\Users\Zeb Perez\OneDrive\Desktop\ISPSMS_JUHACA\ISPSMS_JUHACA\obj\Debug\net8.0-windows\ref\ISPSMS_JUHACA.dll
+C:\Users\Zeb Perez\OneDrive\Desktop\ISPSMS_JUHACA\ISPSMS_JUHACA\obj\Debug\net8.0-windows\ISPSMS_JUHACA.Views.DisconnectedForm.resources

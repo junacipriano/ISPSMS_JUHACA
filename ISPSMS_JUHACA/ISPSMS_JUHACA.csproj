@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Presenter\**" />
+    <Compile Remove="Views\IViews\**" />
+    <EmbeddedResource Remove="Presenter\**" />
+    <EmbeddedResource Remove="Views\IViews\**" />
+    <None Remove="Presenter\**" />
+    <None Remove="Views\IViews\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MaterialSkin.2" Version="2.3.1" />
     <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.4" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
@@ -27,8 +36,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Presenter\" />
-    <Folder Include="Views\IViews\" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

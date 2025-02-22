@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|c:\\users\\zeb perez\\onedrive\\desktop\\ispsms_juhaca\\ispsms_juhaca\\views\\addsubscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\views\\addsubscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|c:\\users\\zeb perez\\onedrive\\desktop\\ispsms_juhaca\\ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|c:\\users\\zeb perez\\onedrive\\desktop\\ispsms_juhaca\\ispsms_juhaca\\views\\addsubscribersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\views\\addsubscribersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|c:\\users\\zeb perez\\onedrive\\desktop\\ispsms_juhaca\\ispsms_juhaca\\views\\addsubscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\views\\addsubscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3E6C7D3-103D-484A-8E04-A4120778EFAF}|WebApplication1\\WebApplication1.csproj|c:\\users\\zeb perez\\onedrive\\desktop\\ispsms_juhaca\\webapplication1\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3E6C7D3-103D-484A-8E04-A4120778EFAF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ispsms_juhaca\\views\\disconnectedform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\views\\disconnectedform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0468DFA4-C7BA-47ED-A675-9486DDFD7939}|Domain\\Domain.csproj|c:\\users\\zeb perez\\onedrive\\desktop\\ispsms_juhaca\\domain\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0468DFA4-C7BA-47ED-A675-9486DDFD7939}|Domain\\Domain.csproj|solutionrelative:domain\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0468DFA4-C7BA-47ED-A675-9486DDFD7939}|Domain\\Domain.csproj|c:\\users\\zeb perez\\onedrive\\desktop\\ispsms_juhaca\\domain\\models\\activities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0468DFA4-C7BA-47ED-A675-9486DDFD7939}|Domain\\Domain.csproj|solutionrelative:domain\\models\\activities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0468DFA4-C7BA-47ED-A675-9486DDFD7939}|Domain\\Domain.csproj|c:\\users\\zeb perez\\onedrive\\desktop\\ispsms_juhaca\\domain\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0468DFA4-C7BA-47ED-A675-9486DDFD7939}|Domain\\Domain.csproj|solutionrelative:domain\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0468DFA4-C7BA-47ED-A675-9486DDFD7939}|Domain\\Domain.csproj|c:\\users\\zeb perez\\onedrive\\desktop\\ispsms_juhaca\\domain\\models\\disconnectedsubscribers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0468DFA4-C7BA-47ED-A675-9486DDFD7939}|Domain\\Domain.csproj|solutionrelative:domain\\models\\disconnectedsubscribers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,21 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SubscribersForm.cs",
               "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\SubscribersForm.cs",
               "RelativeDocumentMoniker": "ISPSMS_JUHACA\\SubscribersForm.cs",
-              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\SubscribersForm.cs*",
-              "RelativeToolTip": "ISPSMS_JUHACA\\SubscribersForm.cs*",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwCIAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\SubscribersForm.cs",
+              "RelativeToolTip": "ISPSMS_JUHACA\\SubscribersForm.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAvwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T09:11:30.42Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\Transactions.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Transactions.cs",
+              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\Transactions.cs",
+              "RelativeToolTip": "Domain\\Models\\Transactions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:22:18.007Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -87,107 +80,34 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubscribersForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\SubscribersForm.cs",
+              "RelativeDocumentMoniker": "ISPSMS_JUHACA\\SubscribersForm.cs",
+              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\SubscribersForm.cs [Design]*",
+              "RelativeToolTip": "ISPSMS_JUHACA\\SubscribersForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:05:56.744Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "addSubscribersForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\Views\\addSubscribersForm.Designer.cs",
-              "RelativeDocumentMoniker": "ISPSMS_JUHACA\\Views\\addSubscribersForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\Views\\addSubscribersForm.Designer.cs",
-              "RelativeToolTip": "ISPSMS_JUHACA\\Views\\addSubscribersForm.Designer.cs",
-              "ViewState": "AgIAAFMBAAAAAAAAAAAqwG4BAAAsAAAAAAAAAA==",
+              "Title": "DisconnectedForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\Views\\DisconnectedForm.cs",
+              "RelativeDocumentMoniker": "ISPSMS_JUHACA\\Views\\DisconnectedForm.cs",
+              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\Views\\DisconnectedForm.cs [Design]",
+              "RelativeToolTip": "ISPSMS_JUHACA\\Views\\DisconnectedForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:42:52.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "addSubscribersForm.cs",
-              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
-              "RelativeDocumentMoniker": "ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
-              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
-              "RelativeToolTip": "ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwC8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:29:45.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "addSubscribersForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
-              "RelativeDocumentMoniker": "ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
-              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\ISPSMS_JUHACA\\Views\\addSubscribersForm.cs [Design]",
-              "RelativeToolTip": "ISPSMS_JUHACA\\Views\\addSubscribersForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:29:12.985Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Accounts.cs",
-              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\Accounts.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Accounts.cs",
-              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\Accounts.cs",
-              "RelativeToolTip": "Domain\\Models\\Accounts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T08:28:32.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Activities.cs",
-              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\Activities.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Activities.cs",
-              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\Activities.cs",
-              "RelativeToolTip": "Domain\\Models\\Activities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T08:31:26.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Transactions.cs",
-              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\Transactions.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Transactions.cs",
-              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\Transactions.cs",
-              "RelativeToolTip": "Domain\\Models\\Transactions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T08:22:18.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Transactions.cs",
-              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\WebApplication1\\Models\\Transactions.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Transactions.cs",
-              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\WebApplication1\\Models\\Transactions.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Transactions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T08:37:22.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DisconnectedSubscribers.cs",
-              "DocumentMoniker": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\DisconnectedSubscribers.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\DisconnectedSubscribers.cs",
-              "ToolTip": "C:\\Users\\Zeb Perez\\OneDrive\\Desktop\\ISPSMS_JUHACA\\Domain\\Models\\DisconnectedSubscribers.cs",
-              "RelativeToolTip": "Domain\\Models\\DisconnectedSubscribers.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T08:21:33.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T12:05:40.84Z"
             }
           ]
         }

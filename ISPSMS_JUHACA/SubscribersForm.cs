@@ -63,6 +63,14 @@ namespace ISPSMS_JUHACA
         private void connectedsubscribersGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             ConSubsEntity = (Domain.Models.ConnectedSubscribers)bindingSource.Current;
+            if (connectedsubscribersGridView.Columns[e.ColumnIndex] is DataGridViewButtonColumn && e.RowIndex >= 0)
+            {
+                DataGridViewRow row = connectedsubscribersGridView.Rows[e.RowIndex];
+
+                string subscriberName = row.Cells["nameDataGridViewTextBoxColumn"].Value.ToString();
+
+                connectedsubscribersGridView.Rows.RemoveAt(e.RowIndex);
+            }
         }
     }
 }
