@@ -24,7 +24,7 @@ namespace Domain.Models
 
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18,2)")]
-        public decimal MonthlyCharge { get; set; }
+        public decimal Charge { get; set; }
 
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18,2)")]
@@ -32,7 +32,7 @@ namespace Domain.Models
 
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18,2)")]
-        public decimal TotalCharge { get; set; }
+        public decimal MonthlyCharge { get; set; }
 
     }
 }

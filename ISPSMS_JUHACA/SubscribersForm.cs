@@ -1,8 +1,8 @@
-using ISPSMS_JUHACA.Data.Repositories;
 using MaterialSkin;
 using MaterialSkin.Controls;
 using System.Windows.Forms;
 using ISPSMS_JUHACA.Data;
+using Infastructure.Data.Repositories.IRepositories;
 
 namespace ISPSMS_JUHACA
 {
@@ -47,7 +47,7 @@ namespace ISPSMS_JUHACA
             AddForm.dueDatePicker.Text = "";
             AddForm.monthlyChargeTextBox.Text = "";
             AddForm.contactNumberTextBox.Text = "";
-            AddForm.message = "Program added successfully.";
+         
             AddForm.ShowDialog();
 
         }

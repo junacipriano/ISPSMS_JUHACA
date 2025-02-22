@@ -16,13 +16,19 @@
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="8.0.11" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.2.0" />
     <PackageReference Include="Unity" Version="5.11.10" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infrustructure\Infastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Presenter\" />
+    <Folder Include="Views\IViews\" />
   </ItemGroup>
 
 </Project>

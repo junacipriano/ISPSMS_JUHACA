@@ -9,6 +9,7 @@
       "ISPSMS_JUHACA/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "Infastructure": "1.0.0",
           "MaterialSkin.2": "2.3.1",
           "Microsoft.AspNet.Identity.Core": "2.2.4",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
@@ -16,7 +17,7 @@
           "Microsoft.Data.SqlClient": "6.0.1",
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Microsoft.EntityFrameworkCore.Analyzers": "8.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
           "Swashbuckle.AspNetCore.Swagger": "7.2.0",
           "Unity": "5.11.10"
         },
@@ -262,15 +263,16 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/8.0.0": {
+      "Microsoft.EntityFrameworkCore.SqlServer/8.0.11": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "6.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.11"
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.11",
+          "System.Formats.Asn1": "8.0.1"
         },
         "runtime": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "assemblyVersion": "8.0.11.0",
+            "fileVersion": "8.0.1124.52104"
           }
         }
       },
@@ -557,6 +559,7 @@
           }
         }
       },
+      "System.Formats.Asn1/8.0.1": {},
       "System.IdentityModel.Tokens.Jwt/7.5.0": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "7.5.0",
@@ -620,8 +623,24 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
+        },
         "runtime": {
           "Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Infastructure/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
+        },
+        "runtime": {
+          "Infastructure.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -747,12 +766,12 @@
       "path": "microsoft.entityframeworkcore.relational/8.0.11",
       "hashPath": "microsoft.entityframeworkcore.relational.8.0.11.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/8.0.0": {
+    "Microsoft.EntityFrameworkCore.SqlServer/8.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GeOmafQn64HyQtYcI/Omv/D/YVHd1zEkWbP3zNQu4oC+usE9K0qOp0R8KgWWFEf8BU4tXuYbok40W0SjfbaK/A==",
-      "path": "microsoft.entityframeworkcore.sqlserver/8.0.0",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.8.0.0.nupkg.sha512"
+      "sha512": "sha512-rYYo8RyteIfRns+GuCcPRf3J7jS8gu8AxUWmFejrGoHTTKINhylL27N+SkFwCjxK4mscokjhQ1zjjJoNQ9oijA==",
+      "path": "microsoft.entityframeworkcore.sqlserver/8.0.11",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.8.0.11.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",
@@ -950,6 +969,13 @@
       "path": "system.diagnostics.eventlog/8.0.1",
       "hashPath": "system.diagnostics.eventlog.8.0.1.nupkg.sha512"
     },
+    "System.Formats.Asn1/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
+      "path": "system.formats.asn1/8.0.1",
+      "hashPath": "system.formats.asn1.8.0.1.nupkg.sha512"
+    },
     "System.IdentityModel.Tokens.Jwt/7.5.0": {
       "type": "package",
       "serviceable": true,
@@ -1028,6 +1054,11 @@
       "hashPath": "unity.5.11.10.nupkg.sha512"
     },
     "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
