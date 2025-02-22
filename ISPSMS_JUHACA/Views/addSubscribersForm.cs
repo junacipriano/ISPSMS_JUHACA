@@ -1,5 +1,5 @@
 ﻿using Domain.Models;
-using ISPSMS_JUHACA.Data.Repositories;
+
 using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ISPSMS_JUHACA.Data.Repositories;
+
 using Infastructure.Data.Repositories.IRepositories;
 
 
@@ -18,11 +18,11 @@ namespace ISPSMS_JUHACA
 {
     public partial class addSubscribersForm : MaterialForm
     {
-        public readonly IConnectedSubscribersRepository? dbContext;
+        public readonly IUnitOfWork? dbContext;
         internal SubscribersForm SubscribersForm;
         public string message { get; internal set; }
 
-        public addSubscribersForm(IConnectedSubscribersRepository? dbContext)
+        public addSubscribersForm(IUnitOfWork? dbContext)
         {
             InitializeComponent();
             this.dbContext = dbContext;
@@ -42,10 +42,9 @@ namespace ISPSMS_JUHACA
             };
         }
 
-      
+
         private void SaveBtn_Click_1(object sender, EventArgs e)
         {
-
             var entity = SubscribersForm.ConSubsEntity;
             DateTime selectedDueDate = dueDatePicker.Value;
             decimal monthlyCharge = decimal.Parse(monthlyChargeTextBox.Text);
@@ -66,11 +65,11 @@ namespace ISPSMS_JUHACA
                 MonthlyCharge = monthlyCharge + 0
 
             };
-            dbContext.Add(entity);
+            dbContext.connectedSubscriberRepository.Add(entity);
             dbContext.Save();
 
             message = "Subscriber successfully added!";
-                
+
             MessageBox.Show(message,
                 "Adding Program",
                 MessageBoxButtons.OK,

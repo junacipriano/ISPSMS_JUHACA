@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Models
 {
-    internal class Transactions
+    public class Transactions
     {
         [Key]
         public int trans_id {  get; set; }

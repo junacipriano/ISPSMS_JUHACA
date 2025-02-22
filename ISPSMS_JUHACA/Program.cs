@@ -1,8 +1,9 @@
 using Infastructure.Data.Repositories.IRepositories;
 using ISPSMS_JUHACA.Data;
-using ISPSMS_JUHACA.Data.Repositories;
+using Infastructure.Repositories;
 using Unity;
 using Unity.Lifetime;
+using Infastructure.Data.Repositories;
 
 namespace ISPSMS_JUHACA
 {
@@ -15,14 +16,19 @@ namespace ISPSMS_JUHACA
         static void Main()
         {
             IUnityContainer UnityC = new UnityContainer();
-            UnityC.RegisterType<IConnectedSubscribersRepository, ConnectedSubscribersRepository>(new HierarchicalLifetimeManager());
+            UnityC.RegisterType<IUnitOfWork,UnitOfWork>(new HierarchicalLifetimeManager());
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
 
-            var ConnectedSubscribersRepository = UnityC.Resolve<IConnectedSubscribersRepository>();
 
-            Application.Run(new SubscribersForm(ConnectedSubscribersRepository));
+
+            //     var ConnectedSubscribersRepository = UnityC.Resolve<IConnectedSubscribersRepository>();
+            var unitOfWork = UnityC.Resolve<IUnitOfWork>();
+            var Subs = new SubscribersForm(unitOfWork);
+            // new AppUserFormPresenter(unitOfWork, appUserForm);
+            Application.Run(Subs);
+
+           // Application.Run(new SubscribersForm(ConnectedSubscribersRepository));
         }
     }
 }

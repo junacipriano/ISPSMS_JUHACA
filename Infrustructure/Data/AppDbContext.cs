@@ -24,5 +24,10 @@ namespace ISPSMS_JUHACA.Data
 
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Domain.Models.ConnectedSubscribers> ConnectedSubscribers { get; set; }
+        public DbSet<Domain.Models.DisconnectedSubscribers> DisconnectedSubscribers { get; set; }
+        public DbSet<Domain.Models.Activity> Activity { get; set; }
+        public DbSet<Domain.Models.Accounts> Accounts { get; set; }
+        public DbSet<Domain.Models.Transactions> Transactions { get; set; }
+       
     }
 }

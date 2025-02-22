@@ -10,9 +10,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISPSMS_JUHACA", "ISPSMS_JUH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{D3E6C7D3-103D-484A-8E04-A4120778EFAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0468DFA4-C7BA-47ED-A675-9486DDFD7939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{0468DFA4-C7BA-47ED-A675-9486DDFD7939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infastructure", "Infrustructure\Infastructure.csproj", "{5D9BE59B-744A-4957-B558-89702920472A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infastructure", "Infrustructure\Infastructure.csproj", "{5D9BE59B-744A-4957-B558-89702920472A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{F6834EDB-AF83-4AD5-B5A8-32A22E752534}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,10 @@ Global
 		{5D9BE59B-744A-4957-B558-89702920472A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9BE59B-744A-4957-B558-89702920472A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9BE59B-744A-4957-B558-89702920472A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6834EDB-AF83-4AD5-B5A8-32A22E752534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6834EDB-AF83-4AD5-B5A8-32A22E752534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6834EDB-AF83-4AD5-B5A8-32A22E752534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6834EDB-AF83-4AD5-B5A8-32A22E752534}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

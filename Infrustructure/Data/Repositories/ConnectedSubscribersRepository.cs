@@ -1,8 +1,9 @@
 ﻿using Domain.Models;
 using Infastructure.Data.Repositories.IRepositories;
 using ISPSMS_JUHACA.Data;
+using ISPSMS_JUHACA.Data.Repositories;
 
-namespace ISPSMS_JUHACA.Data.Repositories
+namespace Infastructure.Repositories
 {
     public class ConnectedSubscribersRepository : Repository<ConnectedSubscribers>, IConnectedSubscribersRepository
     {
@@ -21,5 +22,6 @@ namespace ISPSMS_JUHACA.Data.Repositories
         {
             _db.SaveChanges();
         }
+
     }
 }
