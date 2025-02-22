@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|c:\\users\\user\\desktop\\sd_final\\ispsms\\ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D9BE59B-744A-4957-B558-89702920472A}|Infrustructure\\Infastructure.csproj|c:\\users\\user\\desktop\\sd_final\\ispsms\\infrustructure\\data\\repositories\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D9BE59B-744A-4957-B558-89702920472A}|Infrustructure\\Infastructure.csproj|solutionrelative:infrustructure\\data\\repositories\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ispsms_juhaca\\views\\addsubscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\views\\addsubscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|c:\\users\\user\\desktop\\sd_final\\ispsms\\ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0021B36F-CF86-4B85-AFCD-114AF73AF53B}|ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj|solutionrelative:ispsms_juhaca\\subscribersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3E6C7D3-103D-484A-8E04-A4120778EFAF}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\desktop\\sd_final\\ispsms\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -67,6 +71,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SubscribersForm.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ISPSMS_JUHACA\\SubscribersForm.cs",
+              "RelativeDocumentMoniker": "ISPSMS_JUHACA\\SubscribersForm.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ISPSMS_JUHACA\\SubscribersForm.cs",
+              "RelativeToolTip": "ISPSMS_JUHACA\\SubscribersForm.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvzoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:33:37.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Infrustructure\\Data\\Repositories\\IRepositories\\IRepository.cs",
               "RelativeDocumentMoniker": "Infrustructure\\Data\\Repositories\\IRepositories\\IRepository.cs",
@@ -79,20 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConnectedSubscribersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Infrustructure\\Data\\Repositories\\ConnectedSubscribersRepository.cs",
-              "RelativeDocumentMoniker": "Infrustructure\\Data\\Repositories\\ConnectedSubscribersRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Infrustructure\\Data\\Repositories\\ConnectedSubscribersRepository.cs",
-              "RelativeToolTip": "Infrustructure\\Data\\Repositories\\ConnectedSubscribersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T07:26:43.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Infrustructure\\Data\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "Infrustructure\\Data\\Repositories\\Repository.cs",
@@ -100,12 +104,11 @@
               "RelativeToolTip": "Infrustructure\\Data\\Repositories\\Repository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T07:26:31.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T07:26:31.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "addSubscribersForm.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
               "RelativeDocumentMoniker": "ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
@@ -118,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "SubscribersForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ISPSMS_JUHACA\\SubscribersForm.cs",
               "RelativeDocumentMoniker": "ISPSMS_JUHACA\\SubscribersForm.cs",
@@ -130,19 +133,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "ConnectedSubscribersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Infrustructure\\Data\\Repositories\\ConnectedSubscribersRepository.cs",
+              "RelativeDocumentMoniker": "Infrustructure\\Data\\Repositories\\ConnectedSubscribersRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\Infrustructure\\Data\\Repositories\\ConnectedSubscribersRepository.cs",
+              "RelativeToolTip": "Infrustructure\\Data\\Repositories\\ConnectedSubscribersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:26:43.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "addSubscribersForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
               "RelativeDocumentMoniker": "ISPSMS_JUHACA\\Views\\addSubscribersForm.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ISPSMS_JUHACA\\Views\\addSubscribersForm.cs [Design]",
               "RelativeToolTip": "ISPSMS_JUHACA\\Views\\addSubscribersForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T07:22:27.213Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-22T07:22:27.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
@@ -154,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ISPSMS_JUHACA.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SD_FINAL\\ISPSMS\\ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj",
               "RelativeDocumentMoniker": "ISPSMS_JUHACA\\ISPSMS_JUHACA.csproj",
