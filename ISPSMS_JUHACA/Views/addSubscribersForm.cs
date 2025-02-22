@@ -42,10 +42,9 @@ namespace ISPSMS_JUHACA
             };
         }
 
-      
+
         private void SaveBtn_Click_1(object sender, EventArgs e)
         {
-
             var entity = SubscribersForm.ConSubsEntity;
             DateTime selectedDueDate = dueDatePicker.Value;
             decimal monthlyCharge = decimal.Parse(monthlyChargeTextBox.Text);
@@ -70,7 +69,7 @@ namespace ISPSMS_JUHACA
             dbContext.Save();
 
             message = "Subscriber successfully added!";
-                
+
             MessageBox.Show(message,
                 "Adding Program",
                 MessageBoxButtons.OK,
